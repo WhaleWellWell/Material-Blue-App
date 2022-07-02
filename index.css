@@ -1,0 +1,91 @@
+@import url(./root.css);
+
+html {
+  background-color: var(--paper-blue-grey-600);
+}
+
+body {
+  padding: 10px;
+}
+
+.box-1 {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: var(--paper-grey-200);
+  box-shadow: var(--paper-blue-grey-700) 10px 10px;
+}
+
+
+.box-2 {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: var(--paper-grey-300);
+}
+
+.fit-w {
+  width: fit-content;
+}
+
+.fit-h {
+  height: fit-content;
+}
+
+.fit-all {
+  width: fit-content;
+  height: fit-content;
+}
+
+.header {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 2em;
+  color: var(--paper-blue-grey-900);
+}
+
+.font-quick {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  color: var(--paper-blue-grey-900);
+  line-height: 1.1em;
+  padding-bottom: 7px;
+}
+
+.img {
+  margin: 10px;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: var(--paper-blue-grey-300) 10px 10px;
+}
+
+.spacer-1 {
+  padding: 10px;
+}
+
+.spacer-2 {
+  padding: 20px;
+}
+
+.spacer-3 {
+  padding: 30px;
+}
+
+.btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: var(--paper-grey-300) 7px 7px;
+  color: var(--paper-grey-200);
+  background-color: var(--paper-blue-grey-400);
+}
+
+.btn:hover {
+  box-shadow: var(--paper-blue-grey-200) 7px 7px;
+}
+
+.btn:active {
+  box-shadow: var(--paper-blue-grey-300) 7px 7px;
+}
