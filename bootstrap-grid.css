@@ -4,6 +4,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
  :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -116,7 +117,6 @@
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -5065,5 +5065,3 @@
     display: none !important;
   }
 }
-
-/*# sourceMappingURL=bootstrap-grid.css.map */
